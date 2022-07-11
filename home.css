@@ -1,0 +1,213 @@
+body {
+    margin: 0;
+    padding: 0%;
+    background-color: black;
+    font-size: 1.1em;
+    font-family: "Avenir Next", Avenir, "Helvetica Neue", Helvetica, Arial, "Yu Gothic", "Hiragino Sans", sans-serif;
+}
+main {
+    margin: 0;
+    padding: 0;
+}
+video {
+    width: 100vw;
+     height: 100vh;
+     z-index: -3;
+}
+.home {
+    position: absolute;
+    display: flex; /* 要素をflexboxに対応させる */
+    align-items: center; /* 縦方向の中央揃え */
+    justify-content: center; /* 横方向の中央揃え */
+    flex-direction: column; /* 子要素の並びを上から下にする（要素の改行に対応） */
+    top: 0;
+  }
+.coverTop {
+    width: 2100px;
+    height: 1110px;
+    position: absolute;
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.164) 50%, rgba(0, 0, 0, 0.384) 50%);
+    background-size: 2px 2px;
+    z-index: 0;
+}
+
+
+.link {
+    display: flex;
+    z-index: 1;
+    margin-left: 42.3vw;
+    margin-top: 60px;
+    list-style: none;
+    padding: 0;
+}
+
+#portfolio {
+    font-family: 'Amatic SC', cursive;
+    font-size: 3em;
+    margin-left: 44.7vw;
+    margin-top: 33vh;
+}
+
+
+/* -------------------------------- */
+
+a, a:link, a:visited {
+    text-decoration: none;
+    padding: 9px 15px;
+    /* border: 1px solid #ffffff; */
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    z-index: 10;
+  }
+  a, a:link, a {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+  }
+  a::after {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: rgb(255, 61, 61);
+    transform: scale(0, 1);
+    transform-origin: left top;
+    transition: transform .3s;
+  }
+  a:hover::after {
+    transform: scale(1, 1);
+  } 
+  a, a:link, a:hover{
+    text-decoration: none;
+    padding: 9px 15px;
+    /* border: 1px solid #ffffff; */
+    border-radius: 5px;
+    color: rgb(254, 69, 69);
+    bottom: -4px;
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+  }
+  
+
+
+  .animate {
+      font-size: 50px;
+      margin: 100px 0 0;
+  }
+  
+  .animate span {
+      display: inline-block;
+  }
+  
+  a.repeat {
+    display: inline-block;
+    font-size: 12px;
+    text-transform: none;
+    text-decoration: none;
+    color: orange;
+    padding: 5px 12px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    font-weight: normal;
+    margin: 0 0 0 50px;
+    border-radius: 3px;
+    position: relative;
+    bottom: 15px;
+  }
+  
+  a.repeat:hover {
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+  }
+  
+  .animate span:nth-of-type(2) {
+      animation-delay: .05s;
+  }
+  .animate span:nth-of-type(3) {
+      animation-delay: .1s;
+  }
+  .animate span:nth-of-type(4) {
+      animation-delay: .15s;
+  }
+  .animate span:nth-of-type(5) {
+      animation-delay: .2s;
+  }
+  .animate span:nth-of-type(6) {
+      animation-delay: .25s;
+  }
+  .animate span:nth-of-type(7) {
+      animation-delay: .3s;
+  }
+  .animate span:nth-of-type(8) {
+      animation-delay: .35s;
+  }
+  .animate span:nth-of-type(9) {
+      animation-delay: .4s;
+  }
+  .animate span:nth-of-type(10) {
+      animation-delay: .45s;
+  }
+  .animate span:nth-of-type(11) {
+      animation-delay: .5s;
+  }
+  .animate span:nth-of-type(12) {
+      animation-delay: .55s;
+  }
+  .animate span:nth-of-type(13) {
+      animation-delay: .6s;
+  }
+  .animate span:nth-of-type(14) {
+      animation-delay: .65s;
+  }
+  .animate span:nth-of-type(15) {
+      animation-delay: .7s;
+  }
+  .animate span:nth-of-type(16) {
+      animation-delay: .75s;
+  }
+  .animate span:nth-of-type(17) {
+      animation-delay: .8s;
+  }
+  .animate span:nth-of-type(18) {
+      animation-delay: .85s;
+  }
+  .animate span:nth-of-type(19) {
+      animation-delay: .9s;
+  }
+  .animate span:nth-of-type(20) {
+      animation-delay: .95s;
+  }
+  
+  
+  .three span {
+      color: #b10e81;
+      opacity: 0;
+      transform: translate(-300px, 0) scale(0);
+      animation: sideSlide .5s forwards;
+  }
+  
+  @keyframes sideSlide {
+      60% {
+          transform: translate(20px, 0) scale(1);
+          color: #b10e81;
+      }
+  
+      80% {
+          transform: translate(20px, 0) scale(1);
+          color: #bc3200;
+      }
+  
+      99% {
+          transform: translate(0) scale(1.2);
+          color: #2beea0;
+      }
+  
+      100% {
+          transform: translate(0) scale(1);
+          opacity: 1;
+          color: #ffffff;
+      }
+  }
+  

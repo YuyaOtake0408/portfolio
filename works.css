@@ -1,0 +1,145 @@
+html {
+    /* スムーススクロール用 */
+    scroll-behavior: smooth;
+    list-style: none;
+    font-family: "Avenir Next", Avenir, "Helvetica Neue", Helvetica, Arial, "Yu Gothic", "Hiragino Sans", sans-serif;
+  }
+  
+  /* ヘッダを上に固定 */
+  header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(33, 33, 33);
+    z-index: 9999; /*重なりを調整*/
+    opacity: 0.8;
+  }
+  
+  .container {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+
+  header .container {
+    display: flex;
+    align-items: center;
+    height: 90px;
+  }
+  
+  header .container h1 {
+    font-weight: normal;
+    font-size: 2.5rem;
+    flex: 1;
+    padding-left: 1rem;
+  }
+  
+  header .container nav ul {
+    display: flex;
+    margin-right: 30px;
+  }
+  
+  header .container nav ul li {
+    list-style: none;
+    padding: 1rem 1rem;
+  }
+  
+  header .container nav ul li a{
+   color: rgb(255, 255, 255); 
+   text-decoration: none;
+  }
+  
+  header .container nav ul li a:hover{
+    color: aqua;
+  }
+  header .container #logo {
+    margin-top: 38px;
+    margin-left: 20px;
+  }
+
+  
+#ai {
+    margin-top: 6000px;
+} 
+  
+
+.works__title {
+    margin-top: 100px;
+    font-size: 50px;
+    margin-bottom: 50px;
+    opacity: 0.4;
+    padding-left: 20px;
+    transition: all ease 1s;
+  }
+  .works__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .works__link {
+    display: inline-block;
+    background-color: #1f1f1f;
+    width: 200px;
+    text-align: center;
+    padding: 10px 0;
+    transition: all 0.5s ease;
+  }
+  .works__link:hover {
+    background-color: #fff;
+    border: #1f1f1f 1px solid;
+    color: #1f1f1f;
+  }
+  .works__center {
+    text-align: center;
+  }
+  
+  /* card */
+  .card {
+    width: 28%;
+    margin-bottom: auto;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+  .card__link:hover {
+    opacity: 0.5;
+    transition: all 0.5s ease;
+  }
+  .card__link:hover h3 {
+    color: #008197;
+    transition: all 0.5s ease;
+  }
+  .card__wrapper {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .card__img {
+    box-shadow: #c5c5c5 0px 3px 5px;
+  }
+  .card__title {
+    color: #1f1f1f;
+    text-align: center;
+    letter-spacing: 0;
+    padding: 20px 0;
+  }
+  .card__text {
+    color: #1f1f1f;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  .card__list--text {
+    display: inline-block;
+    background-color: #145081;
+    color: #fff;
+    width: 45%;
+    font-weight: bold;
+    text-shadow: #145081 1px 1px 3px;
+    text-align: center;
+    border-radius: 999px;
+    padding: 2px 0;
+    margin-bottom: 3px;
+    font-size: 12px;
+  }
