@@ -404,11 +404,11 @@ html {
     padding:0;
 }
 .description {
-    margin-left: 290px;
+    margin-left: 295px;
     margin-top:  -532px;
     display: none;
     position: absolute;
-    padding: 244px 258px;
+    padding: 244px 260px;
     font-size: 12px;
     line-height: 1.6em;
     color: #fff;
@@ -457,7 +457,7 @@ html {
 }
 .description2 {
   position: absolute;
-  margin-left: 290px;
+  margin-left: 284px;
   margin-top:  -532px;
   display: none;
   padding: 246px 168px;
@@ -507,11 +507,11 @@ html {
   padding:0;
 }
 .description3 {
-  margin-left: 290px;
+  margin-left: 292px;
   margin-top:  -532px;
   display: none;
   position: absolute;
-  padding: 244px 258px;
+  padding: 244px 263px;
   font-size: 12px;
   line-height: 1.6em;
   color: #fff;
