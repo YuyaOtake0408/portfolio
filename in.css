@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+}
+ 
+header {
+  background: #0cc;
+  height: 700px;
+  padding: 100px;
+  box-sizing: border-box;
+}
+ 
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 5%;
+  box-sizing: border-box;
+}
+ 
+section div {
+  width: 23%;
+  height: 300px;
+  margin: 0 0 2.5vw;
+  padding: 3%;
+  box-sizing: border-box;
+  background: #09c;
+}

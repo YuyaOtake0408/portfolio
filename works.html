@@ -5,98 +5,226 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="works.css">
+    <link rel="stylesheet" href="works.js">
     <link rel="icon" href="./image/icons.png">
-    
+    <link rel="stylesheet" type="text/css" href="css/3-2-3-1.css">
+</head>
     <title>work最終課題試し</title>
 </head>
 <body>
-    <header class="global-nav">
-        <div class="container">
-            <div>
-                <a class="header_logo" href="./home.html">
-                    <h1 id="logo"><img src="./image/Yuya-logo.png" alt="logo" width="17%"></h1>
-                </a>
-            </div>
-        <nav>    
-          <ul>
-            <li><a href="./home.html">Home</a></li>
-            <li><a href="./works.html">Works</a></li>
-            <li><a href="./about.html">About</a></li>
-           </ul>
-        </nav>
-       </div>
-      </header>
-      
-    <main>
-        <section class="works">
-            <h2 class="works__title">Works</h2>
-            <div class="works__flex">
-                
-                <div class="card">
-                    <a class="card__link" href="rai.html">
-                        <img class="card__img" src="./image/samune/sa2.png" alt="">
-                    <div class="card__wrapper">
-                            <h3 class="card__title">RAITAKAYAMA HNDCRAFT</h3>
-                            <p class="card__text">友人が運営する完全オーダーメイドレザーブランドのWebサイト</p>
+   
+
+            <header class="global-nav">
+                <div class="container">
+                    <div>
+                        <a class="header_logo" href="./home.html">
+                            <h1 id="logo"><img src="./image/Yuya-logo.png" alt="logo" width="17%"></h1>
+                        </a>
                     </div>
-                    </a>
-                </div>
-                
-                <div class="card">
-                    <a class="card__link" href="cafe.html">
-                        <img class="card__img" src="./image/samune/sa.png" alt="">
-                        <div class="card__wrapper">
-                            <h3 class="card__title">和風カフェ 虎威殿</h3>
-                            <p class="card__text">和風というものをWebサイトで表現するために制作したWebデザイン</p>
-                        </div>
-                    </a>
-                </div>
+                <nav class="head">     
+                <ul>
+                    <li><a href="./home.html">Home</a></li>
+                    <li><a href="./works.html">Works</a></li>
+                    <li><a href="./about.html">About</a></li>
+                </ul>
+                </nav>
+            </div>
+            </header>
             
-                <div class="card">
-                    <a class="card__link" href="blog.html">
-                        <img class="card__img" src="./image/samune/sa8.png" alt="">
-                        <div class="card__wrapper">
-                            <h3 class="card__title">CHILL BLOG</h3>
-                            <p class="card__text">Webデザインを学び始め3ヶ月目で初めて作ったサイト</p>
-                        </div>
-                    </a>
+            <main>
+                <div class="me">
+                    <p></p>
                 </div>
                 
-                <div class="card">
-                    <a class="card__link" href="sanki.html">
-                        <img class="card__img" src="./image/samune/sa5.png" alt="">
-                        <div class="card__wrapper">
-                            <h3 class="card__title">三気建設</h3>
-                            <p class="card__text">友人の家族が経営する会社をPRするためのWebデザイン</p>
+                        <div class="animate three">
+                            <span>W</span><span>o</span><span>r</span><span>k</span><span>s</span>
                         </div>
-                    </a>
-                </div>
-               
-                <div class="card">
-                    <a class="card__link" href="carender.html">
-                        <img class="card__img" src="./image/samune/sa7.png" alt="">
-                        <div class="card__wrapper">
-                            <h3 class="card__title">花レンダー</h3>
-                            <p class="card__text">面と線の融合をテーマに花をモチーフにしたカレンダーを制作しました</p>
+                <section class="works">
+                    
+                    <h2 class="works__title">Works</h2>
+                    <div class="works__flex">
+                        
+                        <div class="card">
+                                    <div class="card__link">
+                                        <div class="slide1">
+                                            <img src="./image/uni-1.png" />
+                                            <img src="./image/uni-2.png" />
+                                            <img src="./image/uni-3.png" />
+                                        </div>
+                                        <p id="bou">
+                                            <input type="range" id="slide_speed" value="2000" min="100" max="10000">
+                                        </p>
+                                        <div class="card__wrapper">
+                                            <h3 class="card__title">ブロック崩し</h3>
+                                            <p class="card__text">Unityでの初作品。ゲーム制作にも興味あり。</p>
+                                        </div>
+                                    </div> 
+                                    <div class="tooltip">
+                                    <p class= "to">view more</p>
+                                <div class="description">2022 8.15 作成<div>Unityを使用</div><div>c++の学習に苦労</div>作成時間12時間<div></div></div>
+                                    </div>          
                         </div>
-                    </a>
-                </div>
+                            
+                        
+                        <div class="card">
+                            <div class="card__link">
+                                <div class="slide2">
+                                    <img src="./image/fish-1.png"/>
+
+                                    <img src="./image/fish-3.png" />
+                                </div>
+                                <p id="bou2">
+                                    <input type="range" id="slide_speed" value="2000" min="100" max="10000">
+                                </p>
+                                <div class="card__wrapper">
+                                    <h3 class="card__title">魚アニメーション</h3>
+                                    <p class="card__text">Mayaでの作成。海の魚をモチーフにして作成</p>
+                                </div>
+                            </div> 
+                            <div class="tooltip2">
+                            <p class= "to2">view more</p>
+                        <div class="description2">2022 7.20 作成<div>Mayaを使用<div>波の表現に苦労</div><div>作成時間30時間</div></div></div>
+                            </div>          
+                        </div>
+                        
+                        <div class="card">
+                            <div class="card__link">
+                                <div class="slide3">
+                                    <img src="./image/IMG_4640.PNG" height="200"/>
+
+                                </div>
+                                <p id="bou3">
+                                    <input type="range" id="slide_speed" value="2000" min="100" max="10000">
+                                </p>
+                                <div class="card__wrapper">
+                                    <h3 class="card__title">デッサン</h3>
+                                    <p class="card__text">水道蛇口を紙と鉛筆で描いた</p>
+                                </div>
+                            </div> 
+                            <div class="tooltip3">
+                            <p class= "to3">view more</p>
+                        <div class="description3">2022 2.10 作成<div>鉛筆、消しゴムを使用<div>影の表現に苦労</div><div>作成時間10時間</div></div></div>
+                            </div>          
+                        </div>
+                    
+                        <div class="card">
+                            <div class="card__link">
+                                <div class="slide4">
+                                    <img src="./image/tokyo1.png"/>
+                                    <img src="./image/tokyo2.png"/>
+                                    <img src="./image/tokyo3.png"/>
+                                </div>
+                                <p id="bou4">
+                                    <input type="range" id="slide_speed" value="2000" min="100" max="10000">
+                                </p>
+                                <div class="card__wrapper">
+                                    <h3 class="card__title">自作MV</h3>
+                                    <p class="card__text">実写での撮影。Premiereを使用</p>
+                                </div>
+                            </div> 
+                            <div class="tooltip4">
+                            <p class= "to4">view more</p>
+                        <div class="description4">2021 7.20 作成<div>Premiereを使用<div>カメラワークに　力を入れた。</div><div>作成時間15時間</div><div>撮影から編集まで一通り自身で作成</div></div></div>
+                            </div>          
+                        </div>
+                    </div>
+                    
+                </section>
                 
-                <div class="card">
-                    <a class="card__link" href="flag.html">
-                        <img class="card__img" src="./image/samune/sa6.png" alt="">
-                        <div class="card__wrapper">
-                            <h3 class="card__title">岡崎市PR</h3>
-                            <p class="card__text">岡崎市をPRするために制作を行ったフラッグ</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="works__center">
-                <a class="works__link" href="./archive.html">VIEW MORE</a>
-            </div>
-        </section>
-        <h1 id="ai">kiki</h1>
-    </main>
+            </main>
+
+            <div class="footer02">
+                <ul class="menu">
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="./works.html">Works</a></li>
+                <li><a href="https://www.instagram.com/y.u.y.a.08/">Blog</a></li>
+                </ul>
+                <p class="copyright">
+                &copy; Otake Yuya
+                </p>
+        
+     
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="js/3-2-3-1.js"></script><!--←本体の下に設置しないと動きません！-->
 </body>
+</body> 
+
+
+    <script>
+        window.addEventListener('load', function () {
+            viewSlide('.slide1 img');
+        });
+        function viewSlide(className, slideNo = -1)
+        {
+            let imgArray = document.querySelectorAll(className);
+            if (slideNo >= 0) {
+                //初回以外は現在のスライドを消す
+                imgArray[slideNo].style.opacity = 0;
+            }
+            slideNo++;
+            if (slideNo >= imgArray.length) {
+                slideNo = 0; //次のスライドがなければ最初のスライドへ戻る
+            }
+            imgArray[slideNo].style.opacity = 1;
+            let msec = document.getElementById('slide_speed').value;
+            setTimeout(function(){viewSlide(className, slideNo);}, msec);
+        }
+        window.addEventListener('load', function () {
+            viewSlide('.slide2 img');
+        });
+        function viewSlide(className, slideNo = -1)
+        {
+            let imgArray = document.querySelectorAll(className);
+            if (slideNo >= 0) {
+                //初回以外は現在のスライドを消す
+                imgArray[slideNo].style.opacity = 0;
+            }
+            slideNo++;
+            if (slideNo >= imgArray.length) {
+                slideNo = 0; //次のスライドがなければ最初のスライドへ戻る
+            }
+            imgArray[slideNo].style.opacity = 1;
+            let msec = document.getElementById('slide_speed').value;
+            setTimeout(function(){viewSlide(className, slideNo);}, msec);
+        }
+        window.addEventListener('load', function () {
+            viewSlide('.slide3 img');
+        });
+        function viewSlide(className, slideNo = -1)
+        {
+            let imgArray = document.querySelectorAll(className);
+            if (slideNo >= 0) {
+                //初回以外は現在のスライドを消す
+                imgArray[slideNo].style.opacity = 0;
+            }
+            slideNo++;
+            if (slideNo >= imgArray.length) {
+                slideNo = 0; //次のスライドがなければ最初のスライドへ戻る
+            }
+            imgArray[slideNo].style.opacity = 1;
+            let msec = document.getElementById('slide_speed').value;
+            setTimeout(function(){viewSlide(className, slideNo);}, msec);
+        }
+        window.addEventListener('load', function () {
+            viewSlide('.slide4 img');
+        });
+        function viewSlide(className, slideNo = -1)
+        {
+            let imgArray = document.querySelectorAll(className);
+            if (slideNo >= 0) {
+                //初回以外は現在のスライドを消す
+                imgArray[slideNo].style.opacity = 0;
+            }
+            slideNo++;
+            if (slideNo >= imgArray.length) {
+                slideNo = 0; //次のスライドがなければ最初のスライドへ戻る
+            }
+            imgArray[slideNo].style.opacity = 1;
+            let msec = document.getElementById('slide_speed').value;
+            setTimeout(function(){viewSlide(className, slideNo);}, msec);
+        }
+        </script>
+
+
 </html>
